@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useToggle from './hooks/useToggle'
 
 const Toggler = () => {
   const [isHappy, toggleIsHappy] = useToggle(true)
   const [isHeartBroken, toggleIsHeartBroken] = useToggle(false)
+  const [isBanana, toggleIsBanana] = useToggle(false)
 
   return (
     <div className='container mt-5 text-center'>
@@ -13,6 +14,9 @@ const Toggler = () => {
       </p>
       <p className='display-2' onClick={toggleIsHeartBroken}>
         {isHeartBroken ? '♥️' : '💔'}
+      </p>
+      <p className='display-2' onClick={toggleIsBanana}>
+        {isBanana ? '🍌' : '💩'}
       </p>
     </div>
   )
