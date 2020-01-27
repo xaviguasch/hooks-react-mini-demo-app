@@ -3,15 +3,17 @@ import CounterHook from './CounterHook'
 import Toggler from './Toggler'
 import SimpleFormHooks from './SimpleFormHooks'
 import SimpleFormInputHook from './SimpleFormInputHook'
+import Clicker from './Clicker'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <CounterHook />
+        {/* <CounterHook />
         <Toggler />
-        <SimpleFormInputHook />
+        <SimpleFormInputHook /> */}
+        <Clicker />
       </div>
     </div>
   )
