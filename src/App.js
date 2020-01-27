@@ -4,6 +4,7 @@ import Toggler from './Toggler'
 import SimpleFormHooks from './SimpleFormHooks'
 import SimpleFormInputHook from './SimpleFormInputHook'
 import Clicker from './Clicker'
+import SWMovies from './SWMovies'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         {/* <CounterHook />
         <Toggler />
         <SimpleFormInputHook /> */}
-        <Clicker />
+        {/* <Clicker /> */}
+        <SWMovies />
       </div>
     </div>
   )
