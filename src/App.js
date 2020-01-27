@@ -2,6 +2,7 @@ import React from 'react'
 import CounterHook from './CounterHook'
 import Toggler from './Toggler'
 import SimpleFormHooks from './SimpleFormHooks'
+import SimpleFormInputHook from './SimpleFormInputHook'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <div className='container'>
         <CounterHook />
         <Toggler />
-        <SimpleFormHooks />
+        <SimpleFormInputHook />
       </div>
     </div>
   )
