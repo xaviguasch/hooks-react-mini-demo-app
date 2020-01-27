@@ -9,13 +9,13 @@ const Toggler = () => {
   return (
     <div className='container mt-5 text-center'>
       <h1 className='text-danger'>Toggler Component</h1>
-      <p className='display-2' onClick={toggleIsHappy}>
+      <p className='display-4' onClick={toggleIsHappy}>
         {isHappy ? '😄' : '😢'}
       </p>
-      <p className='display-2' onClick={toggleIsHeartBroken}>
+      <p className='display-4' onClick={toggleIsHeartBroken}>
         {isHeartBroken ? '♥️' : '💔'}
       </p>
-      <p className='display-2' onClick={toggleIsBanana}>
+      <p className='display-4' onClick={toggleIsBanana}>
         {isBanana ? '🍌' : '💩'}
       </p>
     </div>
